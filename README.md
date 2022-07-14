@@ -5,13 +5,17 @@ linuX
 > exprot FLASK_ENV = "development"
 > flask run
 
+
 windows
 > $env:FLASK_APP = "myproject"
+
 > $env:FLASK_ENV = "development"
+
 > flask run
 _____________________________________
 
 # create DB and migration migrations/
+
 > flask db init
 > flask db migrate
 
