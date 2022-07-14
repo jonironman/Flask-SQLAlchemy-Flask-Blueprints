@@ -10,11 +10,13 @@ linuX
 
 windows
 > $env:FLASK_APP = "myproject"
+> 
 > $env:FLASK_ENV = "development"
+> 
 > flask run
 _____________________________________
 
-# create DB and migration migrations/
+# create migrations/
 
 > flask db init
 > 
